@@ -1,0 +1,31 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password" required />
+            
+            <!-- Test selection dropdown -->
+            <select id="test-select" required>
+                <option value="test1">Test 1</option>
+                <option value="test2">Test 2</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>New user? <a href="register.html">Register here</a></p>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

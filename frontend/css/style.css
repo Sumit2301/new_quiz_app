@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+input, button, select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Card-like container with 3D effect */
+.quiz-container, .result-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+select {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Question styling */
+.question {
+    margin-bottom: 20px;
+}
+
+.question input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Styling for Result */
+.result-container {
+    text-align: center;
+}
+
+#submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#prev-btn, #next-btn {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+#prev-btn:hover, #next-btn:hover {
+    background-color: #ddd;
+}
+
+/* Result container */
+#score {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #4CAF50;
+}

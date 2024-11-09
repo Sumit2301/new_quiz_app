@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="result-container">
+        <h2>Your Quiz Result</h2>
+        <p id="score"></p>
+        <button onclick="window.location.href='quiz.html'">Take Another Quiz</button>
+        <button onclick="window.location.href='index.html'">Go to Login</button>
+    </div>
+
+    <script>
+        const result = JSON.parse(localStorage.getItem('quizResult'));
+        if (result) {
+            document.getElementById('score').textContent = `Your score: ${result.score} / ${result.totalQuestions}`;
+        } else {
+            document.getElementById('score').textContent = 'No result available.';
+        }
+    </script>
+</body>
+</html>

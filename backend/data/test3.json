@@ -1,0 +1,27 @@
+ 
+[
+    {
+        "question": "What is the speed of light?",
+        "optionA": "300,000 km/s",
+        "optionB": "150,000 km/s",
+        "optionC": "100,000 km/s",
+        "optionD": "400,000 km/s",
+        "answer": "A"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "optionA": "Vincent van Gogh",
+        "optionB": "Pablo Picasso",
+        "optionC": "Leonardo da Vinci",
+        "optionD": "Claude Monet",
+        "answer": "C"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "optionA": "Earth",
+        "optionB": "Saturn",
+        "optionC": "Jupiter",
+        "optionD": "Mars",
+        "answer": "C"
+    }
+]

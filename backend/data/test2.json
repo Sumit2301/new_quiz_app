@@ -1,0 +1,20 @@
+{
+    "testId": "test2",
+    "questions": [
+        {
+            "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+            "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+            "correctAnswer": "B"
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "options": ["Ernest Hemingway", "Harper Lee", "Mark Twain", "Jane Austen"],
+            "correctAnswer": "B"
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "options": ["Yuan", "Won", "Yen", "Ringgit"],
+            "correctAnswer": "C"
+        }
+    ]
+}

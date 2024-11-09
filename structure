@@ -1,0 +1,39 @@
+    quiz-app/
+    │
+    ├── backend/                         
+    │   ├── controllers/                
+    │   │   └── userController.js   
+            |___quizController.js    
+    │   ├── models/                     
+    │   │   └── User.js                  
+    │   ├── routes/                      
+    │   │   └── routes.js               
+    │   ├── config/                      
+    │   │   └── db.js                     
+    │   │   └── mailer.js               
+    │   ├── data/                        
+    │   │   ├── test1.json                
+    │   │   ├── test2.json              
+    │   │   ├── test3.json                
+            |__user.json
+            |__result.json
+    │   ├── .env                         
+    │   └── server.js                    
+    │
+    ├── frontend/                         
+    │   ├── assets/                       
+    │   ├── css/                        
+    │   │   └── style.css                 
+    │   ├── js/                          
+    │   │   └── app.js                   
+        |   |__login.js
+            |__quiz.js
+            |__register.js
+        
+    │   ├── login.html                    
+    │   ├── quiz.html                     
+    │   └── result.html  
+        |__ register.html 
+        |__ result.html            
+    │
+    └── package.json                     
